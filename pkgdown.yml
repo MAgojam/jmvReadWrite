@@ -1,9 +1,9 @@
 pandoc: 3.1.11
-pkgdown: 2.0.7
+pkgdown: 2.0.9
 pkgdown_sha: ~
 articles:
   jmvReadWrite: jmvReadWrite.html
-last_built: 2024-02-29T12:55Z
+last_built: 2024-04-28T14:40Z
 urls:
   reference: https://sjentsch.github.io/jmvReadWrite/reference
   article: https://sjentsch.github.io/jmvReadWrite/articles
