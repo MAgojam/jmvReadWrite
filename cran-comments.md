@@ -14,7 +14,8 @@
   - local (Ubuntu 24.04, R 4.6 x86_64-pc-linux-gnu): 0 errors, 0 warnings, 0 notes
 * `R CMD check` (on .tar.gz)
   - local (Ubuntu 24.04, R 4.6 x86_64-pc-linux-gnu): Status: OK
-* `rhub::rc_submit(platforms=c("linux", "windows", "macos"))`
-  - linux (r-devel), windows (r-devel), macos (r-devel): Status: OK for all OSes
+* `rhub::rc_submit(platforms=c("linux", "windows", "macos-arm64", "mkl", "nold"))`
+  - linux (r-devel), windows (r-devel), mkl, nold: Status: OK for these OSes / containers
+  - macos-arm64 (r-devel) currently doesn't run through because of an issue on rhub (problem when setting up dependencies)
 * `devtools::check_win_devel()`
   - Status: OK
